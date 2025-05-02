@@ -1,9 +1,6 @@
-// .devcontainer/devcontainer.json
 {
-  "name": "FakeWindowsDevEnv",
+  "name": "VibeOS DevEnv",
   "image": "ubuntu:22.04",
-  "features": {
-    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
-  },
+  "features": {},
   "postCreateCommand": "./setup.sh"
 }
